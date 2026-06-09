@@ -22,9 +22,12 @@ A full-stack e-commerce web application built with Django REST Framework and Rea
 - User authentication
 
 ## Project Structure
+
+```
 ECOMMERCE_PROJECT/
 ├── backend/     # Django REST Framework API
 └── frontend/    # React + Vite
+```
 
 ## Getting Started
 
@@ -47,6 +50,10 @@ npm run dev
 
 ## Environment Variables
 
-Create a `.env` file in the backend folder:SECRET_KEY=your_secret_key
+Create a `.env` file in the backend folder:
+
+```
+SECRET_KEY=your_secret_key
 DEBUG=True
 DATABASE_URL=your_postgresql_url
+```
